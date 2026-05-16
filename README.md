@@ -65,7 +65,7 @@ This means anyone on your network can see *which websites you're visiting*, even
 
 ## Setup
 
-**Requirements:** Python 3, Scapy
+**Requirements:** Python , Scapy
 
 ```bash
 pip install scapy
@@ -87,8 +87,6 @@ python sniffer.py --filter "host 8.8.8.8"
 python sniffer.py --count 50
 ```
 
-> Needs `sudo` because reading raw network packets requires root-level access.
-
 ---
 
 ## What I learned
@@ -97,7 +95,6 @@ python sniffer.py --count 50
 - What promiscuous mode is and why sniffers need it
 - How DNS works and why it exposes browsing metadata even over HTTPS
 - How to use Scapy to capture and dissect live traffic
-- Why tools like Wireshark work the way they do
 
 ---
 
