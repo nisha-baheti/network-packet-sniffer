@@ -1,7 +1,7 @@
 # Packet Sniffer
 
 A beginner-friendly network packet sniffer built with Python and Scapy.
-Captures live traffic on your machine, identifies protocols, and highlights DNS queries — revealing which websites your device is looking up in real time.
+Captures live traffic on your machine, identifies protocols, and highlights DNS queries - revealing which websites your device is looking up in real time.
 
 Built as part of learning network security fundamentals.
 
