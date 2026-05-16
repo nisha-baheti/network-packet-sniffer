@@ -75,16 +75,16 @@ pip install scapy
 
 ```bash
 # Capture all traffic
-sudo python3 sniffer.py
+python sniffer.py
 
 # DNS queries only
-sudo python3 sniffer.py --filter "udp port 53"
+python sniffer.py --filter "udp port 53"
 
 # Traffic to/from a specific host
-sudo python3 sniffer.py --filter "host 8.8.8.8"
+python sniffer.py --filter "host 8.8.8.8"
 
 # Stop after 50 packets
-sudo python3 sniffer.py --count 50
+python sniffer.py --count 50
 ```
 
 > Needs `sudo` because reading raw network packets requires root-level access.
